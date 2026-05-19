@@ -1,6 +1,6 @@
 ---
 title: "Community"
-weight: 1
+weight: 2
 ---
 
 Community

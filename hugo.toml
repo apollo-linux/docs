@@ -33,3 +33,12 @@ enableGitInfo = true
   name = 'Community'
   url = '/docs/about/community/'
   weight = 4
+
+[[menu.after]]
+  name = 'GitHub'
+  url = 'https://github.com/apollo-linux'
+  weight = 2
+[[menu.after]]
+  name = 'Discord'
+  url = 'discord.gg/UkDX3kXCKf'
+  weight = 3
