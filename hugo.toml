@@ -1,0 +1,35 @@
+baseURL = 'https://docs.getapollo.dev'
+title = 'Apollo Documentation'
+theme = 'hugo-book'
+enableGitInfo = true
+
+# Required for mermaid and katex shortcodes
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 3
+
+[params]
+  BookTheme = 'ayu-auto'
+  BookToC = true
+  BookCollapseSection = true
+  BookRepo = 'https://github.com/apollo-linux/docs'
+
+[[menu.home]]
+  name = 'Docs'
+  url = '/docs/getting-started/system-requirements'
+  weight = 1
+[[menu.home]]
+  name = 'Blog'
+  url = '/pages/'
+  weight = 2
+[[menu.home]]
+  name = 'GitHub'
+  url = 'https://github.com/apollo-linux'
+  weight = 3
+[[menu.home]]
+  name = 'Community'
+  url = '/docs/miscellaneous/community/'
+  weight = 4
