@@ -31,5 +31,5 @@ enableGitInfo = true
   weight = 3
 [[menu.home]]
   name = 'Community'
-  url = '/docs/miscellaneous/community/'
+  url = '/docs/about/community/'
   weight = 4
