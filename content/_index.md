@@ -5,6 +5,14 @@ layout: landing
 
 # Welcome to Apollo
 
-Apollo is a Linux desktop image designed to be easy to use and up to date without sacrificing on usability. It uses an image-based update system and containerisation to provide a reliable base that prioritises your software and workload over distributions, making the system more reliable.
+Apollo is a Linux desktop OS designed to be easy to use and up to date without sacrificing on usability. It uses an image-based update system and containerisation to provide a reliable base that accomdoates a wide range of workflows. Apollo should be especially appealing for everyday use and containerised development, but it can do ultimately anything you want, including gaming. 
 
-This site contains the Apollo documentation and blog. Please see [getapollo.dev](https://getapollo.dev) for a fancier top-level look at Apollo.
+# Features
+- Near-vanilla GNOME desktop. Minor changes to included apps and default accent colour
+- No telemetry or data collection without prior consent
+- Full support for Turing (GTX 16xx/RTX 20xx) or newer Nvidia graphics cards with a dedicated `apollo-nvidia` image
+- `brew` alongside the `fish` shell are preinstalled for a better cli
+- Automatic background updates by default, with easy image-based rollbacks
+    - The previous image is kept available as a rollback target by default so you're never left with a broken computer
+    - Beyond that, up to 90 days of images are stored on GHCR, giving additional flexibility for rollbacks
+- Focus on "it just works" over trying to make everything super feature-packed and customisable
