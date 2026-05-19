@@ -3,6 +3,10 @@ title = 'Apollo Documentation'
 theme = 'hugo-book'
 enableGitInfo = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Required for mermaid and katex shortcodes
 [markup.goldmark.renderer]
   unsafe = true
