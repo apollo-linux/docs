@@ -27,7 +27,7 @@ enableGitInfo = true
   weight = 1
 [[menu.home]]
   name = 'Blog'
-  url = '/pages/'
+  url = '/posts/'
   weight = 2
 [[menu.home]]
   name = 'GitHub'
