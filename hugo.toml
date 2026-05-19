@@ -20,6 +20,8 @@ enableGitInfo = true
   BookToC = true
   BookCollapseSection = true
   BookRepo = 'https://github.com/apollo-linux/docs'
+  BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
+  BookDateFormat = '2006/01/02'
 
 [[menu.home]]
   name = 'Docs'
