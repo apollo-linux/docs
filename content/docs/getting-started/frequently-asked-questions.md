@@ -15,20 +15,6 @@ Apollo is designed to be a general purpose operating system for everyone, and is
 
 Apollo uses [Arch Linux](https://archlinux.org) as a package base and [bootc](https://bootc.dev) for updates and image deployment. Apollo ships GNOME as it's included desktop environment.
 
-## Moving from Bazzite/Fedora Atomic/etc.?
-
-> [!NOTE]
-> The best and officially supported way to install Apollo is a clean installation using official media.
-
-Run the below commands depending on your hardware and then reboot to perform a rebase:
-
-```bash
-# AMD or Intel graphics
-sudo bootc switch ghcr.io/apollo-linux/apollo:latest
-# NVIDIA Turing (GTX 16xx or RTX 20xx) or newer graphics
-sudo bootc switch ghcr.io/apollo-linux/apollo-nvidia:latest
-```
-
 ## Can I install system packages?
 Apollo does not have an officially blessed way of installing distribution packages. If you need anything you can't get through Flatpak, Homebrew or Distrobox, we recommend building a custom image with the software you need.
 
