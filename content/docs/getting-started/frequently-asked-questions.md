@@ -1,6 +1,6 @@
 ---
 title: "Frequently Asked Questions"
-weight: 1
+weight: 2
 ---
 
 # Frequently Asked Questions {anchor=false}

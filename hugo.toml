@@ -25,7 +25,7 @@ enableGitInfo = true
 
 [[menu.home]]
   name = 'Docs'
-  url = '/docs/getting-started/system-requirements'
+  url = '/docs/getting-started/install'
   weight = 1
 [[menu.home]]
   name = 'Blog'
