@@ -12,6 +12,7 @@ Heavily WIP and incomplete.
 - A computer that meets the [system requirements](#system-requirements)
 - A big enough storage drive for the install media that you are fine with erasing
 - **(Optional, but recommended)**: read through the [frequently asked questions](/docs/getting-started/frequently-asked-questions)
+- Any important data is backed up to a safe location
 
 ## System Requirements
 
