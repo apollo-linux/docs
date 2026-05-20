@@ -7,7 +7,7 @@ layout: landing
 
 {{% columns %}}
 - > [!WARNING]
-  > Mind the dust. Apollo is still early in development and we're still finishing it and writing documentation. Some things here may be placeholder or TBD. Expect missing/incomplete pages or broken links.
+  > Mind the dust. Apollo is still early in development and we're still finishing it and writing documentation. Some things here may be incomplete or subject to change.
 
   Apollo is a Linux desktop image designed to be easy to use and up to date without sacrificing on usability. It uses an image-based update system and containerisation to provide a reliable base that accomdoates a wide range of workflows. 
   
