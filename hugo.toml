@@ -22,6 +22,7 @@ enableGitInfo = true
   BookRepo = 'https://github.com/apollo-linux/docs'
   BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
   BookDateFormat = '2006/01/02'
+  BookFavicon = 'logo.png'
 
 [[menu.home]]
   name = 'Docs'
