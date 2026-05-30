@@ -47,7 +47,7 @@ enableGitInfo = true
   weight = 2
 [[menu.after]]
   name = 'Discord'
-  url = 'discord.gg/UkDX3kXCKf'
+  url = 'https://discord.gg/UkDX3kXCKf'
   weight = 3
 [[menu.after]]
   name = 'Bluesky'
