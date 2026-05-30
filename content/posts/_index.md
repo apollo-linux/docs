@@ -1,7 +1,8 @@
 ---
 menu:
-  after:
+  before:
     weight: 1
+
 layout: posts
 title: Blog
 ---
