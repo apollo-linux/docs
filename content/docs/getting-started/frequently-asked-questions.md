@@ -8,13 +8,6 @@ weight: 2
 ## Who is Apollo for?
 Apollo is designed to be a general purpose operating system for everyone, and is especially suited for those wanting a general day to day operating system and developers running containerised workloads. Gaming is also fully possible on Apollo, even though it's not the primary focus.
 
-## What is Apollo based on?
-
-> [!NOTE]
-> Apollo should be considered as an Arch derivative and as such you should not ask for support with Apollo in Arch community spaces.
-
-Apollo uses [Arch Linux](https://archlinux.org) as a package base and [bootc](https://bootc.dev) for updates and image deployment. Apollo ships GNOME as it's included desktop environment.
-
 ## Can I install system packages?
 Apollo does not have an officially blessed way of installing distribution packages. If you need anything you can't get through Flatpak, Homebrew or Distrobox, we recommend building a custom image with the software you need.
 
