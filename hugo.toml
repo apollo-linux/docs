@@ -49,3 +49,6 @@ enableGitInfo = true
   name = 'Discord'
   url = 'discord.gg/UkDX3kXCKf'
   weight = 3
+[[menu.after]]
+  name = 'Bluesky'
+  url = 'https://bsky.app/profile/getapollo.dev'
