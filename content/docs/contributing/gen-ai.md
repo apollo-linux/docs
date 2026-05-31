@@ -15,7 +15,7 @@ AI tools can be used to answer questions and find information. However, we encou
 
 ## Upstreams
 
-Upstreams or tools used in building Apollo may themselves use Generative AI code. For the reasons mentioned above, we will make a reasonable effort to avoid these where reasonable alternatives that fulfill our needs properly, however we acknowledge this is sometimes unavoidable.
+Upstreams or tools used in building Apollo may themselves use Generative AI code. For the reasons mentioned above, we will make a reasonable effort to avoid these where there are alternatives that fulfill our needs properly, however we acknowledge this is sometimes unavoidable and we may still use upstreams that have Generative AI code, provided they remain of good quality and retain human oversight.
 
 ## Credit
 This policy is adapted from [the one in use by Loupe](https://gitlab.gnome.org/GNOME/loupe/-/blob/main/CONTRIBUTING.md?ref_type=heads).
