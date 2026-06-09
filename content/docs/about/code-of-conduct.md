@@ -3,9 +3,6 @@ title: "Code of Conduct"
 weight: 1
 ---
 
-> [!INFO]
-> The canonical source for the Apollo code of conduct is on our [GitHub repository](https://github.com/apollo-linux/.github/blob/main/CODE_OF_CONDUCT.md).
-
 # Contributor Covenant 3.0 Code of Conduct
 
 ## Our Pledge
