@@ -46,4 +46,11 @@ Nontheless, if you still want to disable them you can run the following:
 ajust toggle-automatic-updates
 ```
 
-When filing bug reports or asking for support, please make sure your system is up to date first, as your issue may have been fixed in an update. 
+> [!TIP]
+> When filing bug reports or asking for support in community spaces, please make sure your system is up to date first, as your issue may have been fixed in an update. 
+
+If you have disabled automatic updates, you should make sure your system is up to date regularly. You can run this command in the terminal to update everything at once:
+
+```bash
+ajust update
+```
