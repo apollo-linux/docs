@@ -1,7 +1,24 @@
 @import "plugins/themes";
 
-// custom apollo theme, based on upstream defaults, with some changes to accomodate our branding
+.markdown {
+  h1, h2, h3, h4 {
+    font-weight: bold;
+  }
 
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  h3 {
+    font-size: 18pt;
+  }
+}
+
+// custom apollo theme, based on upstream defaults, with some changes to accomodate our branding
 @mixin theme-apollo-light { // made to look like 'browser default'
   --body-background: white;
   --body-background-tint: none;
