@@ -18,7 +18,7 @@ copyright = '[© BSD 3-Clause](https://github.com/apollo-linux/docs/blob/main/LI
   endLevel = 6
 
 [params]
-  BookTheme = 'ayu-auto'
+  BookTheme = 'apollo-auto'
   BookToC = true
   BookCollapseSection = true
   BookRepo = 'https://github.com/apollo-linux/docs'

@@ -1,1 +1,83 @@
 @import "plugins/themes";
+
+.markdown {
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  h3 {
+    font-size: 18pt;
+  }
+}
+
+// custom apollo theme, based on upstream defaults, with some changes to accomodate our branding
+@mixin theme-apollo-light { // made to look like 'browser default'
+  --body-background: white;
+  --body-background-tint: none;
+  --body-font-color: black;
+
+  --color-link: hsl(278.18182, 96%, 34%);
+  --color-visited-link: hsl(256, 96%, 38%);
+
+  --icon-filter: none;
+
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-500: #adb5bd;
+
+  @include accent("default", hsl(279, 96, 45));
+  @include accent("note", #4486dd);
+  @include accent("tip", #3bad3b);
+  @include accent("important", #8144dd);
+  @include accent("warning", #f59e42);
+  @include accent("caution", #d84747);
+
+  // Fallback for {{< hint >}} shortcodes
+  @include accent("info", #4486dd);
+  @include accent("success", #3bad3b);
+  @include accent("danger", #d84747);
+}
+
+@mixin theme-apollo-dark { // based on https://www.nordtheme.com/
+  --body-background: hsl(270, 9%, 9%);
+  --body-background-tint: none;
+
+  --body-font-color: #ffffff;
+
+  --color-link: hsl(279, 79%, 80%);
+  --color-visited-link: hsl(239, 94%, 83%);
+
+  --icon-filter: brightness(0) invert(1);
+
+  --gray-100: hsl(270, 9%, 14%);
+  --gray-200: hsl(270, 9%, 18%);
+  --gray-500: hsl(270, 9%, 22%);
+
+  @include accent("default", hsl(196, 87%, 60%));
+  @include accent("note", hsl(204, 100%, 65%));
+  @include accent("tip", hsl(103, 100%, 59%));
+  @include accent("important", hsl(301, 100%, 64%));
+  @include accent("warning", hsl(13, 100%, 66%));
+  @include accent("caution", hsl(354, 100%, 62%));
+
+  // Fallback for {{< hint >}} shortcodes
+  @include accent("info", hsl(204, 100%, 65%));
+  @include accent("success", hsl(103, 74%, 49%));
+  @include accent("danger", hsl(354, 71%, 52%));
+}
+
+@mixin theme-apollo-auto {
+  @include theme-apollo-light;
+
+  @media (prefers-color-scheme: dark) {
+    @include theme-apollo-dark;
+  }
+}
