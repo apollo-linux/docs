@@ -3,6 +3,8 @@ title = 'Apollo Documentation'
 theme = 'hugo-book'
 enableGitInfo = true
 
+copyright = '[© BSD 3-Clause](https://github.com/apollo-linux/docs/blob/main/LICENSE)'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
