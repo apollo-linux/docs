@@ -16,7 +16,7 @@ enableGitInfo = true
   endLevel = 6
 
 [params]
-  BookTheme = 'ayu-auto'
+  BookTheme = 'apollo-auto'
   BookToC = true
   BookCollapseSection = true
   BookRepo = 'https://github.com/apollo-linux/docs'
