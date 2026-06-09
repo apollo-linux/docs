@@ -11,7 +11,7 @@ Apollo is designed to be a general purpose operating system for everyone, and is
 
 ## How do I install software?
 
-We use Flatpak for GUI applications, homebrew for CLI applications, and Distrobox for distro packages where they're needed. See [Installing Software](/docs/using-apollo/software.md) for more information.
+We use Flatpak for GUI applications, homebrew for CLI applications, and Distrobox for distro packages where they're needed. See [Installing Software](/docs/using-apollo/software) for more information.
 
 ## How do I update Apollo?
 
