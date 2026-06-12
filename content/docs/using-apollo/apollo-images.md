@@ -28,7 +28,7 @@ If you switch graphics cards, e.g., from Nvidia to AMD, or vice versa, it's reco
 
 ## Rebasing between Apollo images
 
-Run `sudo bootc status` first to get the current status of your system, and then you can use `bootc switch` command as below:
+You may wish to switch between images, such as switching between release channels or GPU manufacturers. Run `sudo bootc status` first to get the current status of your system, and then you can use `bootc switch` command as below:
 
 ```bash
 # Replace $image and $channel with your desired image and/or channel.
