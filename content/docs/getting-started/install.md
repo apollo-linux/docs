@@ -24,4 +24,4 @@ Heavily WIP and incomplete.
 - An **x86_64** capable processor with at least **2 cores** running at **2GHz or better**
 - At least **4GB** of RAM, though we recommend at least **8GB**.
 - Modern AMD/Intel graphics, or for Nvidia anything Turing (GTX/16xx or RTX 20xx) or newer using the `apollo-nvidia` image
-    - Older Nvidia GPUs may still work with the regular image (`apollo`), however these only ship the open source nouveau drivers which typically have worse performance compared to the proprietary drivers.
+    - See [the frequently asked questions section](/docs/getting-started/frequently-asked-questions/#does-apollo-support-my-nvidia-card) for more information on Nvidia.

@@ -18,13 +18,12 @@ Apollo builds images with three different channels. These have different release
 
 ## Nvidia images
 
-> [!INFO]
-> Users with older Nvidia cards can use the `apollo` image, however these images only ship the open source drivers, which may have worse performance and stability. 
+> [!NOTE]
+> See [Frequently Asked Questions#Does Apollo support my Nvidia card?](http://localhost:1313/docs/getting-started/frequently-asked-questions/#does-apollo-support-my-nvidia-card)
 
 Apollo builds a dedicated `apollo-nvidia` image, which includes the proprietary Nvidia GPU drivers for Turing (GTX 16xx/RTX 20xx) or newer cards. For most users on AMD or Intel cards, simply using the `apollo` image will suffice.
 
 If you switch graphics cards, e.g., from Nvidia to AMD, or vice versa, it's recommended to switch to the appropriate image using [the instructions below](#rebasing-between-apollo-images) 
-
 
 ## Rebasing between Apollo images
 
