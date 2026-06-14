@@ -7,7 +7,7 @@ tags = ['apollo', 'security']
 
 Hi all,
 
-Our upstream package source, Arch Linux, has recently been hit with a wave of malware attacks in it's user-submitted Arch User Repository. Apollo does not use packages from the AUR at this time and as such is not affected by the recent wave of AUR attacks. I'm monitoring the situation closely, in the mean time users should continue to take care to make sure they are using software from trusted sources. 
+Our upstream package source, Arch Linux, has recently been hit with a wave of malware attacks in it's user-submitted Arch User Repository. Apollo does not use packages from the AUR at this time and as such is not affected by the recent wave of AUR attacks. We're monitoring the situation closely, in the mean time users should continue to take care to make sure they are using software from trusted sources. 
 
 **Users using the official Apollo images are not knowingly affected by the recent wave of malware.** Containers running Arch, such as those made with `distrobox` should be audited in order to make sure they are unaffected. We recommend deleting and rebuilding the container in the event that affected packages are found.
 
