@@ -42,9 +42,11 @@ In addition to regular builds, Apollo also tags each build with a date to make i
 # Replace $image and $channel with your current image and channel (e.g. apollo:latest)
 # If you're not sure what image and channel you're running, run sudo bootc status first
 # Replace $date with the format YYYYMMDD (e.g. 20260519) 
-sudo bootc switch ghcr.io/apollo-linux/$image:$channel.$date
+# Replace $build with a build number for that day, this is usually 0.
+sudo bootc switch ghcr.io/apollo-linux/$image:$channel.$date.$build
 ```
 
 ### Reference
 
 - [Upstream `bootc switch` documentation](https://bootc.dev/bootc/man/bootc-switch.8.html)
+- List of image tags for [`apollo`](https://github.com/apollo-linux/apollo/pkgs/container/apollo/versions?filters[version_type]=tagged) and [`apollo-nvidia`](https://github.com/apollo-linux/apollo/pkgs/container/apollo-nvidia/versions?filters[version_type]=tagged) images.
