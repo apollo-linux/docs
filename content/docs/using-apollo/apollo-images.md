@@ -14,7 +14,7 @@ Apollo builds images with three different channels. These have different release
 
 - `stable`: This channel currently updates *daily* and is the default for Apollo. Recommended for most users.
 - `stable-lts`: same as the above, but using the *LTS* version of the kernel. Some users may have a more stable experience with this channel.
-- `latest`: This channel updates whenever a change is made to the Apollo git repo, alongside daily builds. Recommended for advanced users and testers.
+- `latest`: This channel updates whenever a change is made to the Apollo git repo, alongside daily builds. Recommended for advanced users, testers and those using custom images.
 
 ## Nvidia images
 
