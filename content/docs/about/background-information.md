@@ -3,7 +3,8 @@ title: "Background Information"
 weight: 3
 ---
 
-# Background Information
+# Background Information {anchor=false}
+
 This is background technical information that explains our design choices and philosophy, and generally doesn't matter day-to-day when using Apollo, but some users may still be interested in, especially those more familiar with Linux and technology. This is a companion page to [Frequently Asked Questions](/docs/getting-started/frequently-asked-questions/).
 
 ## Based on Arch Linux
