@@ -1,10 +1,10 @@
 ---
-title: "Information for Nerds"
+title: "Background Information"
 weight: 3
 ---
 
-# Information for Nerds
-This is highly detailed or technical information that shouldn't matter to *most* people, but may still be interesting to some people, especially those more familiar with Linux and technology. This is a companion page to [Frequently Asked Questions](/docs/getting-started/frequently-asked-questions/).
+# Background Information
+This is background technical information that explains our design choices and philosophy, and generally doesn't matter day-to-day when using Apollo, but some users may still be interested in, especially those more familiar with Linux and technology. This is a companion page to [Frequently Asked Questions](/docs/getting-started/frequently-asked-questions/).
 
 ## Based on Arch Linux
 
@@ -27,4 +27,4 @@ Apollo uses the bootc update system. This combines image-based updates with boot
 
 Updating Apollo pulls a fresh copy of Apollo from the internet and deploys it for the next boot, rather than updating individual packages. This makes the system much more resilient to [configuration drift](https://www.solarwinds.com/resources/it-glossary/configuration-drift) and eliminates common issues with Linux systems from failed updates. 
 
-Additionally, Apollo is distributed as a container, making it possible to make a customised version of Apollo, also known as a custom image, which can be customised similar to a traditional distro with only a bit of extra work at first. Additionally, we use `chunkah` on all released images, allowing layers to be reused between updates.
+Additionally, Apollo is distributed as a container image. This has several benefits, it allows us to use chunks to provide smaller updates over time, it allows us to use OCI infrastructure to distribute images, and makes it possible for users to make their own downstream/derivative versions of Apollo.
