@@ -62,7 +62,7 @@ distrobox create --image ubuntu:26.04 $container_name
 distrobox create --image archlinux:latest $container_name
 ```
 
-### Reference
+## Reference
 - [Flatpak command reference](https://docs.flatpak.org/en/latest/flatpak-command-reference.html)
 - [Homebrew website](https://brew.sh/)
 - [Distrobox website/documentation](https://distrobox.it/)
