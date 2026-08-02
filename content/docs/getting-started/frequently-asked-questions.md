@@ -15,7 +15,7 @@ We use Flatpak for GUI applications, homebrew for CLI applications, and Distrobo
 
 ## Does Apollo support my Nvidia card?
 
-Apollo fully supports Turing or newer Nvidia cards, which includes the GTX 16xx and RTX 20xx cards. Drivers for these images are included with the `apollo-nvidia` image which includes the proprietary drivers needed for the best performance. 
+Apollo fully supports Turing (e.g., GTX 16xx/RTX 20xx) or newer Nvidia cards. Drivers for these images are included with the `apollo-nvidia` image which includes the proprietary drivers needed for the best performance. 
 
 Pascal and older cards will work with the regular `apollo` image, however these images only support the open source drivers, which typically have worse performance and we cannot guarantee the best experience for these users. 
 
