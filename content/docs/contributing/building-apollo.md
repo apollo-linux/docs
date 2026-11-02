@@ -8,6 +8,11 @@ weight: 2
 ## Building an image
 Apollo is made with mkosi and bootc. You'll need mkosi, python, just, and preferably podman (docker should work too). A hypervisor is also recommended for testing images. 
 
+If you don't already have one, you should clone the Apollo image repository first:
+```bash
+git clone https://github.com/apollo-linux/apollo
+```
+
 You can build a bootc-compatible oci archive with mkosi (an Arch-based environment is currently recommended) using the following command:
 ```bash
 just build-bootc $kernel # either kernel-rolling for the latest kernel, or #kernel-lts
