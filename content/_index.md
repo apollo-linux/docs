@@ -3,18 +3,22 @@ title: "Welcome to Apollo!"
 layout: landing
 ---
 
-# Welcome to Apollo {anchor=false}
+# Apollo Documentation {anchor=false}
+
+> [!INFO] 
+> Mind the dust. Apollo is still early in development and we're still finishing it and writing documentation. Some things here may be incomplete or subject to change.
 
 {{% columns %}}
-- > [!WARNING]
-  > Mind the dust. Apollo is still early in development and we're still finishing it and writing documentation. Some things here may be incomplete or subject to change.
+- ### [Installation Guide](/docs/getting-started/install/)
+  Learn how to install Apollo on your computer.
 
-  Apollo is a Linux desktop image designed to be easy to use and up to date without sacrificing on usability. It uses an image-based update system and containerisation to provide a reliable base that accomdoates a wide range of workflows. 
-  
-  Apollo should be especially appealing for everyday use and containerised development, but it can do ultimately anything you want, including gaming. We include [Flathub](https://flathub.org), [Homebrew](https://brew.sh) and [Distrobox](https://distrobox.it) alongside container runtimes to make it easy to find and run the software you need.
+- ### [Frequently Asked Questions](/docs/getting-started/frequently-asked-questions/)
+  Frequently Asked Questions about Apollo.
 
-  This is our combined documentation and blog website. For a more detailed and high-level look at Apollo, see [getapollo.dev](https://getapollo.dev). See our [installation guide](/docs/getting-started/install) to get started with Apollo!
+- ### [Installing Software](/docs/using-apollo/software/)
+  Learn how to install software on Apollo.
 
-- {{< image src="screenshot.png" alt="A screenshot of an Apollo system running bootc status" title="A screenshot of an Apollo system running bootc status" loading="lazy" >}}
+- ### [getapollo.dev](https://getapollo.dev)
+  The main website for Apollo.
 
 {{% /columns %}}
