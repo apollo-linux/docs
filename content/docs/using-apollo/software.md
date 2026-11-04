@@ -12,6 +12,8 @@ As an image-based operating system, Apollo is not designed with a system package
 
 Flatpak with the [**Bazaar**](https://usebazaar.org) frontend is our primary way of installing software on Apollo. We use [**Flathub**](https://flathub.org) by default, the Linux app store, in order to provide a large range of up to date applications.
 
+Bazaar's **Curated** tab includes a curated by Apollo maintainers that compliment the included software selection. Additionally, you can use the **Explore** tab to find software on Flathub.
+
 {{< image src="screenshots/bazaar.png" alt="A screenshot of the Bazaar application center on it's default page" title="The Bazaar application center" loading="lazy" >}}
 
 ### Flatpak command line
